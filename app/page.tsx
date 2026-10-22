@@ -6,7 +6,7 @@ import { gsap } from 'gsap';
 export default function SpiderManUI() {
   const [activeTab, setActiveTab] = useState('SUMMARY');
   
-  // State untuk mengontrol tumpukan Kontak (menggantikan Projects)
+  // State untuk mengontrol tumpukan Kontak
   const [isContactsExpanded, setIsContactsExpanded] = useState(false);
   const [isMenuExpanded, setIsMenuExpanded] = useState(false);
   
@@ -299,8 +299,6 @@ export default function SpiderManUI() {
                 <div
                   key={i}
                   onClick={() => {
-                    // Jika belum terbuka, klik untuk membuka tumpukan.
-                    // Jika sudah terbuka, buka link sosmed di tab baru.
                     if (!isContactsExpanded) {
                       setIsContactsExpanded(true);
                     } else if (contact.url !== '#') {
