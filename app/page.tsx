@@ -195,12 +195,12 @@ export default function SpiderManUI() {
               BASE OF OPERATIONS
             </h2>
             
-            <div className="bg-[#0a0a0a] p-6 border-l-4 border-red-600 tab-content-element rounded-r-xl shadow-xl">
+            <div className="bg-[#0a0a0a] p-6 border-l-4 border-neutral-600 tab-content-element rounded-r-xl opacity-80 shadow-xl">
                 <h3 className="text-3xl font-black text-white uppercase tracking-widest">STMIK DCI</h3>
                 <p className="text-red-400 font-mono text-sm uppercase tracking-widest mt-1">Program Studi Manajemen Informatika</p>
                 <div className="mt-4 flex items-center gap-3 opacity-80">
                    <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(239,68,68,1)]"></div>
-                   <span className="text-xs text-neutral-300 font-mono tracking-widest uppercase">Status: Active Training</span>
+                   <span className="text-xs text-neutral-400 font-mono tracking-widest uppercase">2023 - 2026</span>
                 </div>
             </div>
 
